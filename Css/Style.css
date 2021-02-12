@@ -1,0 +1,246 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ECECEC; }
+
+.searching {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600 !important;
+  padding-top: 12px; }
+
+.contuct-us {
+  position: relative;
+  margin-left: 5px; }
+  .contuct-us:after {
+    content: "";
+    position: absolute;
+    left: -1%;
+    background-color: white;
+    right: -2.5%;
+    top: 97.26%;
+    bottom: -0.26%;
+    border: 1px solid #FFFFFF;
+    z-index: 18; }
+
+#open-search {
+  padding: 10px;
+  margin-top: 15px; }
+  #open-search img {
+    max-width: 70%; }
+  #open-search .input-search {
+    width: 80%;
+    height: 11px;
+    outline: none;
+    position: relative;
+    margin-right: -98px;
+    border: none; }
+    #open-search .input-search:before {
+      content: "\f002";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      padding-top: 3px;
+      z-index: 22;
+      right: 22%;
+      font-size: 14px;
+      color: #0156FF;
+      cursor: pointer;
+      transition: 0.5s; }
+    #open-search .input-search:after {
+      content: "\f00d";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      cursor: pointer;
+      position: absolute;
+      right: 17%;
+      color: #020202; }
+
+.profil-card {
+  position: relative; }
+  .profil-card img {
+    margin-left: 5px;
+    color: white; }
+  .profil-card:after {
+    content: "2";
+    background-color: #0156FF;
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+    font-size: 9px;
+    font-weight: 900;
+    right: -29%;
+    top: -13%;
+    padding: 1px 4px 0 4px; }
+
+nav {
+  width: 103.3%;
+  margin-left: -15px; }
+  nav .nav-link {
+    font-size: 13px;
+    color: #020202 !important; }
+  nav .dif-link {
+    color: #0156FF !important;
+    transition: 0.5s;
+    padding: 4px; }
+    nav .dif-link:hover {
+      color: white !important; }
+
+.rate ul li i.fa-star {
+  color: #E9A426;
+  font-size: 9px; }
+
+.card {
+  border: none; }
+  .card span.stock {
+    position: relative;
+    font-size: 12px; }
+    .card span.stock:before {
+      content: "\f058";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 21px;
+      font-size: 12px; }
+  .card .no-stock {
+    position: relative;
+    font-size: 12px; }
+    .card .no-stock:before {
+      content: "\f87b";
+      position: absolute;
+      left: -8px;
+      top: 2px;
+      font-size: 8px;
+      background-color: #C94D3F;
+      border-radius: 54%;
+      padding: 1px 3px 1px 3px; }
+  .card .callings {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    left: -5px;
+    top: 4px; }
+  .card .card-body {
+    padding: 0; }
+    .card .card-body .card-text {
+      font-size: 12px; }
+
+.custom {
+  background-image: url("../image 30.png");
+  background-repeat: no-repeat;
+  background: cover;
+  width: 200px;
+  height: 300px;
+  margin-left: 0; }
+
+.middle-lead ul {
+  margin-top: 20px; }
+  .middle-lead ul li {
+    margin-left: 20px; }
+    .middle-lead ul li .active-after {
+      position: relative;
+      color: #020202; }
+      .middle-lead ul li .active-after:after {
+        content: "";
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        background-color: #0156FF;
+        left: 0;
+        bottom: -5px; }
+
+#custom-2 {
+  background-image: url("../image 30 (2).png");
+  background-repeat: no-repeat;
+  background: cover; }
+
+#custom-3 {
+  background-image: url("../image 30 (3).png");
+  background-repeat: no-repeat;
+  background: cover; }
+
+#custom-4 {
+  background-image: url("../image 30 (1).png");
+  background-repeat: no-repeat;
+  background: cover; }
+
+.logo {
+  margin-top: 20px; }
+  .logo img {
+    max-width: 100%; }
+
+.instagram .card {
+  margin-bottom: 20px; }
+  .instagram .card .card-body p {
+    font-size: 9px; }
+  .instagram .card .card-body span {
+    font-size: 9px; }
+
+#Sitat {
+  margin: 0 auto; }
+  #Sitat .card-body ul li a {
+    padding: 8px 16px;
+    border-radius: 26px;
+    border-color: #0156FF;
+    color: #0156FF; }
+  #Sitat .card-body ul li a:hover {
+    color: white; }
+  #Sitat .card-body .footer-round li {
+    margin-left: 10px; }
+    #Sitat .card-body .footer-round li .rounded-circle {
+      width: 12px;
+      height: 12px; }
+
+.services .card {
+  margin-top: 40px; }
+  .services .card img {
+    margin: 0 auto;
+    background-color: #0156FF;
+    padding: 20px;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    max-width: 100%; }
+  .services .card .card-body {
+    margin-top: 40px; }
+    .services .card .card-body .card-title {
+      font-size: #020202;
+      font-weight: bold; }
+
+ul.footer-input li input {
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 7px 20px; }
+ul.footer-input li .subscribe {
+  padding: 8px 16px;
+  border-radius: 26px;
+  border-color: #0156FF;
+  margin-left: 10px; }
+
+.hr {
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 10px; }
+
+.contact-info ul li {
+  font-size: 10px; }
+  .contact-info ul li .opened {
+    font-size: 10px;
+    position: relative; }
+    .contact-info ul li .opened:before {
+      content: "\f017";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      left: -13px;
+      top: 1px;
+      font-size: 12px;
+      position: absolute; }
+  .contact-info ul li ul li {
+    font-size: 8px !important; }
+.contact-info ul .adress-info p::before {
+  content: "\f3c5";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
+
+/*# sourceMappingURL=style.css.map */

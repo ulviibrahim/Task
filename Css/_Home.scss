@@ -1,0 +1,373 @@
+body{
+    font-family: $font-base;
+    background-color: #ECECEC;
+}
+.searching{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600 !important;
+    padding-top: 12px;
+
+}
+.contuct-us{
+    position: relative;
+    margin-left: 5px;
+    &:after{
+        content: "";
+        position: absolute;
+        left: -1%;
+        background-color: white;
+        right: -2.5%;
+        top: 97.26%;
+        bottom: -0.26%;
+        border: 1px solid #FFFFFF;
+        z-index: 18;
+    }
+}
+
+
+#open-search{
+
+
+    padding: 10px;
+    margin-top: 15px;
+        img{
+            max-width: 70%;
+        }
+    
+     .input-search{
+        width: 80%;
+        height: 11px;
+        outline: none;
+        position: relative;
+        margin-right: -98px;
+        border: none;
+
+        &:before{
+            content: "\f002";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            padding-top: 3px;
+            z-index: 22;
+            right: 22%;
+            font-size: 14px;
+            color: #0156FF;
+            cursor: pointer;
+            transition: 0.5s;
+
+           
+
+        
+       
+        }
+       
+        &:after{
+            content: "\f00d";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            cursor: pointer;
+            position: absolute;
+            right: 17%;
+            color: $bg-dark;
+        }
+    }
+   
+}
+.profil-card {
+    position: relative;
+
+      img{
+    margin-left: 5px;
+    color: white;
+   
+
+    }
+    &:after{
+        content: "2";
+        background-color: #0156FF;
+        position: absolute;
+        border-radius: 50%;
+        color: white;
+        font-size: 9px;
+        font-weight: 900;
+        right: -29%;
+        top: -13%;
+        padding: 1px 4px 0 4px;
+    }
+}
+
+nav{
+    width: 103.3%;
+    margin-left: -15px;
+    .nav-link{
+        font-size: 13px;
+        color: $bg-dark !important;
+    }
+    .dif-link{
+        color: #0156FF !important;
+        transition: 0.5s;
+        padding: 4px;
+        &:hover{
+            color: white !important;
+        }
+    }
+}
+
+
+// Products
+
+.rate ul li i.fa-star{
+color: #E9A426;
+font-size: 9px;
+}
+  
+.card{
+    border: none;
+    span.stock{
+        position: relative;
+        font-size: 12px;
+        
+        &:before{
+            content: "\f058";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 21px;
+            font-size: 12px;            
+        }
+    }
+
+    .no-stock{
+        position: relative;
+        font-size: 12px;
+        &:before{
+            content: "\f87b";
+            position: absolute;
+        left: -8px;
+        top: 2px;
+        font-size: 8px;
+        background-color: #C94D3F;
+        border-radius: 54%;
+        padding: 1px 3px 1px 3px;
+            }
+        }
+.callings{
+    position: absolute;
+    // background-color: #0156FF;
+   color: white;
+    font-size: 10px;
+    left: -5px;
+    top: 4px;
+
+}
+    .card-body{
+        padding: 0;
+        .card-text{
+font-size: 12px;
+        }
+    }
+    
+}
+
+
+.custom{
+    background-image:url('../image\ 30.png');
+    background-repeat: no-repeat;
+    background:cover;
+    width: 200px;
+    height: 300px;
+    margin-left: 0;
+   
+    
+}
+.middle-lead{
+
+    ul{
+        margin-top: 20px;
+        li{
+            margin-left: 20px;
+            .active-after{
+                position: relative;
+                color: $bg-dark;
+                &:after{
+                    content: "";
+                    height: 2px;
+                    position: absolute;
+                    width: 100%;
+                    background-color: #0156FF;
+                    left: 0;
+                    bottom: -5px;
+                }
+
+            }
+        }
+    }
+}
+ #custom-2{
+    background-image:url('../image\ 30\ \(2\).png');
+    background-repeat: no-repeat;
+    background:cover;
+ }
+ #custom-3{
+    background-image:url('../image\ 30\ \(3\).png');
+    background-repeat: no-repeat;
+    background:cover;
+ }
+ #custom-4{
+    background-image:url('../image\ 30\ \(1\).png');
+    background-repeat: no-repeat;
+    background:cover;
+ }
+
+ .logo{
+     margin-top: 20px;
+     img{
+         max-width: 100%;
+     }
+ }
+ .instagram{
+     .card{
+        margin-bottom: 20px;
+        .card-body{
+
+            p{
+                font-size:9px
+            }
+            span{
+                font-size: 9px;
+              
+            }
+        }
+     }
+    
+ }
+
+ #Sitat{
+     margin: 0 auto;
+ .card-body{
+    
+    
+     ul{
+         li{
+            a{
+                padding: 8px 16px; border-radius: 26px; border-color: #0156FF; color: #0156FF ;
+               
+            }
+            a:hover{
+               color: white;
+            }
+         }
+     }
+     
+     .footer-round{
+         li{
+             margin-left: 10px;
+            .rounded-circle{
+                width: 12px;
+                height: 12px;
+            }
+         }
+     }
+ }
+     
+
+
+ }
+
+
+ .services{
+     .card{
+         margin-top: 40px;
+         img{
+            margin: 0 auto;
+            background-color:  #0156FF;
+             padding: 20px; width: 60px;
+              border-radius: 50%;
+               height:  60px;
+                max-width: 100%;
+                
+         }
+         .card-body{
+             margin-top: 40px;
+             .card-title{
+                 font-size: $bg-dark;
+                 font-weight: bold;
+             }
+         }
+     }
+ }
+
+
+     ul.footer-input{
+         li{
+
+             input{
+                 background-color: transparent;
+                 border: 1px solid gray;
+                 border-radius: 5px;
+                 padding: 7px 20px;
+             }
+             .subscribe{
+                padding: 8px 16px; 
+                border-radius: 26px; 
+                border-color: #0156FF;
+                margin-left: 10px;
+                 
+             
+         }}
+     }
+ .hr{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 10px;
+ }
+
+ .contact-info{
+
+    ul{
+        li{
+            font-size: 10px;
+            .opened{
+                font-size: 10px;
+                  position: relative;
+                &:before{
+                    content: "\f017";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    left: -13px;
+                    top: 1px;
+                    font-size: 12px;
+                    position: absolute;
+                }
+               
+            }
+            ul{
+                li{
+                    font-size: 8px !important;
+
+                }
+            }
+           
+        }
+        .adress-info{
+            p{
+                &::before{
+                    content: "\f3c5";
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+ }
+
+
+
+// #product .card .stock{
+//     margin-bottom: 10px;
+//     &::before{
+//         left: 53px;
+//     }
+// }
