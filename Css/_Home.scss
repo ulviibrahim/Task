@@ -213,6 +213,19 @@ font-size: 12px;
         }
     }
 }
+#custom-1,#custom-2,#custom-3,#custom-4{
+    position: relative;
+    h4{
+        position: absolute;
+        left: 6px;
+        top: 44%;
+    }
+    a{
+        position: absolute;
+    bottom: 26px;
+    left: 16%;
+    }
+}
  #custom-2{
     background-image:url('../image\ 30\ \(2\).png');
     background-repeat: no-repeat;
@@ -380,12 +393,10 @@ font-size: 12px;
         right: 3px;
         
         li{
-            border: 2px solid gray;
-            padding: 0px 6px;
-            margin-bottom: 5px;
-            border-radius: 50%;
+            
+          
           img{
-              width: 8px;
+              width: 15px;
           }
         }
      }
@@ -567,6 +578,8 @@ font-size: 12px;
         }
     }}
 }
+
+
 // #product .card .stock{
 //     margin-bottom: 10px;
 //     &::before{

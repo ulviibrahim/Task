@@ -1,0 +1,208 @@
+body{
+    background-color: white;
+}
+
+#image-block{
+    margin-top: -16px;
+    .img{
+        img{
+            max-width: 100%;
+        }
+    }
+}
+.link-path{
+    h2{
+        color: $bg-dark;
+    }
+    li{
+
+        margin-left: 19px;
+        font-size: 12px;
+    span{
+        position: relative;
+       
+        color: black;
+        &:after{
+            content: "\f105";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            right: -10px;
+        top: 3px;
+        font-size: 9px;
+        color: #0156ff;
+        }
+    }
+}
+}
+.clear{
+    padding: 7px 40px;
+     border-radius: 26px;
+}
+#filter-catalog{
+    .filter-devices{
+        .back{
+            color: black;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            &:before{
+               content: "\f104";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 97px;
+            top: 3px;
+            font-size: 12px;
+            }
+        }
+
+        #filters{
+            .card-body{
+                .clear{
+                    padding: 7px 40px;
+                     border-radius: 26px;
+                }
+                .category{
+                    
+                        li{
+                            font-size: 12px;
+                            display: flex;
+                            justify-content: space-between;
+                            .title-ul{
+                                font-weight: bold;
+                            }
+
+                           
+                        
+                    }
+                    .color-group{
+                        display: flex;
+                        justify-content: left ;
+                        .blackbox{
+                          background-color: black;
+                          width: 20px;
+                          height: 20px;
+                        }
+                        .redbox{
+                            background-color: red;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                            margin-left: 10px;
+                            padding: 0px;
+                            border: 2px solid #e3c1c1;
+                        }
+                    }
+                }
+            }
+        }
+        #brands{
+            .brand-box{
+                margin-top: 50px;
+                img{
+                border: 1px solid #cccccc;
+                background-color: white;
+                width: 100%;
+                padding: 10px;
+            }
+        }
+        }
+    }
+}
+.position{
+    p{
+        color: #6c7589;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    button{
+        margin: 0 10px;
+        padding: 10px 24px 10px 10px;
+        border-radius: 2px;
+        font-size: 14px;
+        position: relative;
+        span{
+            color: $bg-dark;
+            font-weight: 600;
+        }
+        &:after{
+            content: "\f107";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            right: 8px;
+            top: 11px;
+        }
+    }
+    img{
+
+        width: 5%;
+        height: 41%;
+        margin-top: 15px;
+        margin-right: 10px;
+    
+    }
+}
+
+.list-count{
+    li{
+        button{
+            margin-left: 10px;
+            border-radius: 2px;
+            font-weight: 600;
+            position: relative;
+            padding: 7px 20px 7px 10px;
+            span{
+                color: black;
+
+            }
+            &:hover span{
+                color:white;
+            }
+           
+        }
+              .x-icon{
+               
+                &:after{
+                    content: "\f00d";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 600;
+                    color: white;
+                    background-color: #C94D3F;
+                    font-size: 11px;
+                    border-radius: 50%;
+                    padding: 2px 4px;
+                    right: 2px;
+                    top: 6px;
+                    position: absolute;
+              }
+
+            }
+        }
+    }
+    .pages{
+        li{
+            margin-left: 10px;
+            span{
+                padding: 5px 12px;
+            }
+        }
+    }
+.text-opacity{
+   
+    white-space: wrap; 
+    width: 100%; 
+    height: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: -webkit-linear-gradient(rgb(19, 17, 17), rgb(243, 239, 239));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#services{
+    .card{
+        padding: 15px;
+    }
+}
