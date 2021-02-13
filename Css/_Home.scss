@@ -28,7 +28,7 @@ body{
 
 #open-search{
 
-
+    
     padding: 10px;
     margin-top: 15px;
         img{
@@ -98,6 +98,15 @@ body{
 }
 
 nav{
+    a{
+        img{
+            .logo{
+                img{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
     width: 103.3%;
     margin-left: -15px;
     .nav-link{
@@ -220,12 +229,7 @@ font-size: 12px;
     background:cover;
  }
 
- .logo{
-     margin-top: 20px;
-     img{
-         max-width: 100%;
-     }
- }
+ 
  .instagram{
      .card{
         margin-bottom: 20px;
@@ -336,7 +340,7 @@ font-size: 12px;
                     content: "\f017";
                     font-family: "Font Awesome 5 Free";
                     font-weight: 900;
-                    left: -13px;
+                    left: -15px;
                     top: 1px;
                     font-size: 12px;
                     position: absolute;
@@ -353,18 +357,216 @@ font-size: 12px;
         }
         .adress-info{
             p{
+                position: relative;
                 &::before{
                     content: "\f3c5";
                     font-family: 'Font Awesome 5 Free';
                     font-weight: 900;
+                    left: -11px;
+                    font-size: 12px;
+                    position: absolute;
                 }
             }
         }
     }
  }
 
+ #open-stock{
+     position: relative;
+
+     .heart-icons{
+        list-style: none;
+        position: absolute;
+        right: 3px;
+        
+        li{
+            border: 2px solid gray;
+            padding: 0px 6px;
+            margin-bottom: 5px;
+            border-radius: 50%;
+          img{
+              width: 8px;
+          }
+        }
+     }
+
+     #add-cart{
+         margin-bottom: 10px;
+     .add-cart{
+        padding: 7px 15px 7px 35px;
+    border-radius: 26px;
+    border-color: #0156FF;
+    margin-left: 10px;
+    font-size: 10px;
+    position: relative;
+       
+        }
+        img{
+            position: absolute;
+            left: 35px;
+            color: blue;
+            width: 15px;
+            bottom: 26px;
+        }
+     }
+ }
+
+ .open-account{
+     ul{
+         padding: 14px;
+         li{
+          font-size: 16px;
+         }
+     }
+     position: relative;
+     &::after{
+         content: "";
+         position: absolute;
+         width: 15px;
+         height: 15px;
+         right: 8px;
+         top: -7px;
+         transform: rotate(
+     45deg
+     );
+         background-color: white;
+
+     }
 
 
+ }
+
+ .mycart-open-details {
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        right: 27px;
+        top: -7px;
+        transform: rotate(
+    45deg
+    );
+        background-color: white;
+
+    }
+
+
+    .flush-ul{
+        text-align: center;
+        .flush-1{
+            font-size: 9px;
+            .add-cart{
+                padding: 10px 10px 10px 10px;
+                border-radius: 26px;
+                font-size: 11px;
+            }
+        }
+        .flush-2{
+            font-size: 12px;
+            span{
+              font-weight: bold;
+              margin-top: 50px;
+            }
+            .img{
+                
+                    img{
+                         width: 56px;
+                    }
+                }
+
+            
+            p{
+                font-size: 8px;
+            }
+           
+
+        }
+        .flush-3{
+            button{
+
+            
+           
+                border-radius: 26px;
+                font-size: 11px;
+            }
+           .check-outwith{
+               position: relative;
+           span{
+            font-size: 10px;
+            font-weight: bold;
+            margin-left: -55px;
+           }
+            .paypal{
+                position: absolute;
+                width: 45px;
+                right: 6px;
+                bottom: 13px;
+            }
+        }
+        }
+
+    }
+ }
+.a,.b,.c{
+    ul{
+
+    
+    li{
+
+   margin-bottom: 5px;
+    padding: 0 15px;
+    }
+}
+}
+.drop{
+    position: relative;
+    &:after{
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        right: 4px;
+        top: 2px;
+        font-size: 9px;
+        color: black;
+    }
+}
+
+.logos{
+    ul{
+        li{
+            .logo{
+                img{
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+#open-menu{
+    .open-menu-ul{
+        .b-r{
+        border-right: 1px solid #CCCCCC !important;
+        }
+        .stock{
+            &:before{
+                left: 4px !important;
+            }
+        }
+    }
+}
+.ads-logo{
+    div{
+
+    
+    .logo{
+        img{
+            width: 100%;
+        }
+    }}
+}
 // #product .card .stock{
 //     margin-bottom: 10px;
 //     &::before{
