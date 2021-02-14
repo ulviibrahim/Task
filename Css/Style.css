@@ -380,6 +380,9 @@ ul.footer-input li .subscribe {
 body {
   background-color: white; }
 
+header {
+  background-color: white; }
+
 #image-block {
   margin-top: -16px; }
   #image-block .img img {
@@ -519,5 +522,189 @@ body {
 
 #services .card {
   padding: 15px; }
+
+.collapsible {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  position: relative; }
+  .collapsible:after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    top: 11px;
+    left: 150px;
+    position: absolute; }
+
+#collaps .collapsible {
+  display: inline;
+  color: black !important; }
+  #collaps .collapsible .title-ul {
+    position: relative;
+    display: inline; }
+  #collaps .collapsible:after {
+    right: 5px; }
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: transparent; }
+  .content ul {
+    font-size: 14px !important; }
+
+.active, .collapsible:hover {
+  background-color: transparent; }
+
+@media (min-width: 350px) and (max-width: 768px) {
+  header {
+    background-color: #0156ff;
+    position: relative !important; }
+    header nav {
+      display: block !important;
+      background-color: #0156ff; }
+      header nav .navbar-brand {
+        display: none !important; }
+      header nav .nav-link {
+        color: white !important; }
+
+  .search {
+    position: absolute !important;
+    z-index: 200;
+    width: 72%;
+    right: 8%;
+    top: 34px; }
+    .search .logo img {
+      position: absolute;
+      top: -28px;
+      left: -73px;
+      background-color: #0156ff;
+      border-radius: 50%;
+      padding: 16px; }
+    .search .input-search {
+      width: 90% !important; }
+      .search .input-search input {
+        width: 75%;
+        height: 10px;
+        background-color: white;
+        outline: none;
+        left: -34px; }
+      .search .input-search:after {
+        display: none; }
+    .search .profil-card:after {
+      display: none; }
+
+  .searching ul li.remove-li {
+    display: none; }
+  .searching ul li .contuct-us {
+    display: block !important; }
+  .searching ul li .fb-ins {
+    display: none !important; }
+
+  .filter-devices .Filter-hidden {
+    display: inline !important; }
+  .filter-devices .back {
+    display: none !important; }
+  .filter-devices .cards-hidden {
+    display: none !important; }
+
+  .position img {
+    width: 8% !important;
+    height: 46% !important; }
+
+  .shower {
+    display: none !important; }
+
+  .list-count {
+    display: none !important; }
+
+  .footer-input {
+    display: block !important; }
+    .footer-input li input {
+      background-color: transparent;
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 7px 20px;
+      margin-bottom: 15px; }
+
+  .cards-show {
+    display: inline !important; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    background-color: #0156ff;
+    position: relative !important; }
+    header nav {
+      display: block !important;
+      background-color: #0156ff; }
+      header nav .navbar-brand {
+        display: none !important; }
+      header nav .nav-link {
+        color: white !important; }
+
+  .search {
+    position: absolute !important;
+    z-index: 200;
+    width: 72%;
+    right: 8%;
+    top: 42px; }
+    .search .logo img {
+      position: absolute;
+      top: -28px;
+      left: -73px;
+      background-color: #0156ff;
+      border-radius: 50%;
+      padding: 16px; }
+    .search .input-search {
+      width: 90% !important; }
+      .search .input-search input {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        outline: none;
+        left: -79px; }
+      .search .input-search:after {
+        display: none; }
+    .search .profil-card:after {
+      display: none; }
+
+  .searching ul li.remove-li {
+    display: none; }
+  .searching ul li .contuct-us {
+    display: block !important; }
+  .searching ul li .fb-ins {
+    display: none !important; }
+
+  .filter-devices .back {
+    display: none !important; }
+
+  .position img {
+    width: 8% !important;
+    height: 46% !important; }
+
+  .shower {
+    display: none !important; }
+
+  .list-count {
+    display: none !important; }
+
+  .footer-input input {
+    width: 62%; } }
+@media (min-width: 992px) {
+  .search {
+    display: none; }
+
+  header {
+    background-color: white !important; }
+    header nav {
+      display: flex !important;
+      background-color: white !important; }
+      header nav .nav-link {
+        color: black !important; } }
 
 /*# sourceMappingURL=style.css.map */

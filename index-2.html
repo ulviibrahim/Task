@@ -31,10 +31,11 @@
                         <ul class="list-unstyled d-flex justify-content-around  font-weight-bold">
                             <li class="text-white"> <span class="text-secondary">Mon-Thu: </span>9:00 AM - 5:30
                                 PM <img class="mb-1 ml-2" src="img/Vector 11.png" alt=""></li>
-                            <li class="text-secondary">Visit our showroom in 1234 Street Adress City Address,
+                            <li class="text-secondary remove-li">Visit our showroom in 1234 Street Adress City Address,
                                 1234 <span class="contuct-us text-white"> Contact Us</span></li>
                             <li>
-                                <ul class="text-white list-unstyled d-flex justify-content-between">
+                                <span class="contuct-us text-white d-none"> Contact Us</span>
+                                <ul class="fb-ins text-white list-unstyled d-flex justify-content-between">
                                     <li>Call Us: (00) 1234 5678</li>
                                     <li class="ml-2 mr-2"> <i class="fab fa-facebook-square"></i> </li>
                                     <li><i class="fab fa-instagram"></i></li>
@@ -46,51 +47,70 @@
             </div>
         </div>
     </div>
+    <div class="row bg-white shadow-sm ">
+        <div class="col-lg-12 search">
+            <div >
+                <ul id="open-search" class="  list-unstyled d-flex justify-content-around">
+                    <li class="logo"><img src="img/index-2/Vector 24.png" alt=""></li>
+                    <li class="input-search"> <input placeholder="Search entiere store here..."
+                            class=" rounded-pill alert alert-secondary p-3" type="text"></li>
+                    <li>
+                        <ul class="list-unstyled d-flex ">
+                            <li class="profil-card"><img src="img/index-2/Group 1918.png" alt=""></li>
+                            <li class="ml-2"> <img src="img/index-2/Group 1939.png" alt=""></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
     <!-- Info end -->
 
     <!-- Header starting -->
+    <header>
     <div class="container-fluid shadow-sm">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <nav class="navbar  navbar-expand-lg navbar-light bg-white">
+                    <nav  class="navbar  navbar-expand-lg navbar-dark">
                         <a class="navbar-brand" href="#"><img src="img/Vector 24.png" alt=""></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        <button style=" border:none" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span style="z-index: 255;" class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse " id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link  font-weight-bold" href="#">Laptops</a>
+                                    <a class="nav-link  bolder" href="#">Laptops</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link  font-weight-bold" href="#">Desktop PCs</a>
+                                    <a class="nav-link  bolder" href="#">Desktop PCs</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link  font-weight-bold" href="#">Networking Devices</a>
+                                    <a class="nav-link  bolder" href="#">Networking Devices</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link  font-weight-bold" href="#">Printers & Scanners</a>
+                                    <a class="nav-link  bolder" href="#">Printers & Scanners</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link  font-weight-bold" href="#">PC Parts
+                                    <a class="nav-link  bolder" href="#">PC Parts
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link  font-weight-bold" href="#">All Other Products</a>
+                                    <a class="nav-link  bolder" href="#">All Other Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link  font-weight-bold" href="#">Repairs</a>
+                                    <a class="nav-link  bolder" href="#">Repairs</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link rounded-circle-pill mt-1 dif-link font-weight-bold btn btn-outline-primary"
+                                    <a style="border-radius: 26px; padding: 4px 10px;" class="nav-link rounded-circle-pill mt-1 dif-link font-weight-bold btn btn-outline-primary"
                                         href="#">Our Deals</a>
                                 </li>
 
                             </ul>
-                            <ul class="list-unstyled d-flex  justify-content-around">
+                            <ul style="margin-left: 63px;" class="list-unstyled d-flex  justify-content-around">
                                 <li class="mt-3"><img src="img/search.png" alt=""></li>
                                 <li class="profil-card mt-3 ml-2 mr-3"><img src="img/addcart.png" alt=""></li>
                                 <li class="mt-2"> <img src="img/Ellipse 8.png" alt=""></li>
@@ -103,6 +123,8 @@
         </div>
         <hr>
     </div>
+</header>
+
     <!-- Header end -->
     <main>
 
@@ -118,7 +140,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Image block end -->
   
  <div class="container-fluid mt-2">
@@ -146,141 +167,156 @@
             <div class="col-lg-3 col-md-4">
              <div class="filter-devices">
               <a class="back  text-center text-decoration-none" href="Choose.html">Back</a>
-              <div id="filters" style="background-color: #f5f7ff;" class="card p-3 mt-3">
+              <button style="font-size: 26px; padding: 10px 47px;" class="Filter-hidden d-none btn btn-outline-secondary">Filter</button>
+             
+                <div id="filters" style="background-color: #f5f7ff;" class="card p-3 mt-3">
                 
-                <div class="card-body text-center">
-                  <h5 class="card-title font-weight-bold">Filters</h5>
-                  
-                  <a href="#" class="clear btn btn-outline-secondary">Clear Filter</a>
-
-
-                  <ul class="category list-unstyled mt-3">
-                      <li><p class="title-ul">Category</p> <span><i class="fas fa-angle-up"></i></span></li>
-                      <li>
-                          <p>CUSTOM PCS</p>
-                          <span>15</span>
-                      </li>
-                      <li>
-                          <p>MSI ALL-IN-ONE PCS</p>
-                          <span>45</span>
-                          
-                      </li>
-                      <li>
-                          <p>HP/COMPAQ PCS</p>
-                          1
-                      </li>
-                  </ul>
-      
-                  <ul class="category list-unstyled mt-3">
-                    <li><p class="title-ul">Price</p> <span><i class="fas fa-angle-up"></i></span></li>
-                    <li>
-                        <p>  $0.00 - $1,000.00</p>
-                        <span>19</span>
-                    </li>
-                    <li>
-                        <p>$1,000.00 - $2,000.00</p>
-                        <span>21</span>
-                        
-                    </li>
-                    <li>
-                        <p>$2,000.00 - $3,000.00</p>
-                        <span>9</span>
-                    </li>
-                    <li>
-                        <p>$3,000.00 - $4,000.00</p>
-                        <span>6</span>
-                    </li>
-                    <li>
-                        <p>$4,000.00 - $5,000.00</p>
-                        <span>3</span>
-                    </li>
-                    <li>
-                        <p>$5,000.00 - $6,000.00</p>
-                        <span>1</span>
-                    </li>
-                    <li>
-                        <p>$6,000.00 - $7,000.00</p>
-                        <span>1</span>
-                    </li>
-                    <li>
-                        <p>$7,000.00 And Above</p>
-                        <span>1</span>
-                    </li>
-                </ul>
-                <ul class="category list-unstyled mt-3">
-                    <li><p class="title-ul">Color</p> <span><i class="fas fa-angle-up"></i></span></li>
-                    <li class="color-group mb-3">
-                        <div class="blackbox"></div>
-                        <div class="redbox"></div>
-                    </li>
-                    <li><p class="title-ul">Filter Name</p> <span><i class="fas fa-angle-down"></i></span></li>
-                   
-                </ul>
-                 <button type="button" style="border-radius: 26px; font-size:13px;    padding: 5px 41px;" class="btn btn-primary">Apply Filters(2)</button>
-                </div>
-              </div>
-              <div id="brands" style="background-color: #f5f7ff;" class="card p-3 mt-3">
-                
-                <div class="card-body text-center">
-
-                    <h5 class="card-title font-weight-bold">Brands</h5>
-                  
-                    <a href="#" class="clear btn btn-outline-secondary">All Brands</a>
-                        
-                    <div class="brand-box d-flex justify-content-between">
-                        <ul class="list-unstyled"> 
-                          <li> 
-                              <img src="img/image 33.png" alt="">
-                          </li>
-                          <li> 
-                            <img src="img/image 33 (1).png" alt="">
-                        </li>
-                        <li> 
-                            <img src="img/image 33 (2).png" alt="">
-                        </li>
+                    <div class="card-body text-center">
+                      <h5 class="card-title font-weight-bold">Filters</h5>
+                      
+                      <a href="#" class="clear btn btn-outline-secondary">Clear Filter</a>
+                       <div id="collaps">
+                      <button type="button" class="collapsible"><p class="title-ul  ">Category</p> </button>
+                      <div class="content">
+                        <ul class="category list-unstyled mt-3">
+                            <li>
+                                <p>CUSTOM PCS</p>
+                                <span>15</span>
+                            </li>
+                            <li>
+                                <p>MSI ALL-IN-ONE PCS</p>
+                                <span>45</span>
+                                
+                            </li>
+                            <li>
+                                <p>HP/COMPAQ PCS</p>
+                                1
+                            </li>
                         </ul>
-                        <ul class="list-unstyled">
-                            <li> 
-                                <img src="img/image 33 (3).png" alt="">
+                      </div>
+                     
+                      <button type="button" class="collapsible"><p class="title-ul ">Price</p> </button>
+                      <div class="content">
+                        <ul class="category list-unstyled mt-3">
+                       
+                            <li>
+                                <p>  $0.00 - $1,000.00</p>
+                                <span>19</span>
                             </li>
-                            <li> 
-                                <img src="img/image 33 (4).png" alt="">
+                            <li>
+                                <p>$1,000.00 - $2,000.00</p>
+                                <span>21</span>
+                                
                             </li>
-                            <li> 
-                                <img src="img/image 33 (5).png" alt="">
+                            <li>
+                                <p>$2,000.00 - $3,000.00</p>
+                                <span>9</span>
+                            </li>
+                            <li>
+                                <p>$3,000.00 - $4,000.00</p>
+                                <span>6</span>
+                            </li>
+                            <li>
+                                <p>$4,000.00 - $5,000.00</p>
+                                <span>3</span>
+                            </li>
+                            <li>
+                                <p>$5,000.00 - $6,000.00</p>
+                                <span>1</span>
+                            </li>
+                            <li>
+                                <p>$6,000.00 - $7,000.00</p>
+                                <span>1</span>
+                            </li>
+                            <li>
+                                <p>$7,000.00 And Above</p>
+                                <span>1</span>
                             </li>
                         </ul>
                     </div>
-                     
+    
+                    <button type="button" class="collapsible"><p class="title-ul ">Color</p> </i></span></button>
+                    <div class="content">
+                    <ul class="category list-unstyled mt-3">
+                        <li class="color-group mb-3">
+                            <div class="blackbox"></div>
+                            <div class="redbox"></div>
+                        </li>
+                       
+                    </ul>
+                     </div>
+    
+                     <button type="button" class="collapsible "><p class="title-ul">Filter Name</p> </button>
+                     <div class="content">
+                    </div>
                 </div>
-            </div> 
-            <div id="product" style="background-color: #f5f7ff;" class="card p-3 mt-3">
-                
-                <div class="card-body text-center"> 
-                    <h5 class="card-title font-weight-bold">Compare Products</h5>
-                    <p style="font-size:14px;">You have no items to compare.</p>
-             </div>
-            </div>
-            <div id="wish-list" style="background-color: #f5f7ff;" class="card p-3 mt-3">
-                
-                <div class="card-body text-center"> 
-                    <h5 class="card-title font-weight-bold">My Wish List</h5>
-                    <p style="font-size:14px;">You have no items in your wish list.</p>
-             </div>
-            </div>
-            <div id="advers-photo" style="background-color: #f5f7ff;" class="card mt-3">
-                
-               <div class="img"><img style="width:100%" src="img/index-2/image 49.png" alt=""></div>
+                     <button type="button" style="border-radius: 26px; font-size:13px;    padding: 5px 41px;" class="btn btn-primary">Apply Filters(2)</button>
+                    </div>
+                  </div>
+                  <div class="cards-hidden">
+                  <div id="brands" style="background-color: #f5f7ff;" class="card p-3 mt-3">
+                    
+                    <div class="card-body text-center">
+    
+                        <h5 class="card-title font-weight-bold">Brands</h5>
+                      
+                        <a href="#" class="clear btn btn-outline-secondary">All Brands</a>
+                            
+                        <div class="brand-box d-flex justify-content-between">
+                            <ul class="list-unstyled"> 
+                              <li> 
+                                  <img src="img/image 33.png" alt="">
+                              </li>
+                              <li> 
+                                <img src="img/image 33 (1).png" alt="">
+                            </li>
+                            <li> 
+                                <img src="img/image 33 (2).png" alt="">
+                            </li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li> 
+                                    <img src="img/image 33 (3).png" alt="">
+                                </li>
+                                <li> 
+                                    <img src="img/image 33 (4).png" alt="">
+                                </li>
+                                <li> 
+                                    <img src="img/image 33 (5).png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                         
+                    </div>
+                </div> 
+                <div id="product" style="background-color: #f5f7ff;" class="card p-3 mt-3">
+                    
+                    <div class="card-body text-center"> 
+                        <h5 class="card-title font-weight-bold">Compare Products</h5>
+                        <p style="font-size:14px;">You have no items to compare.</p>
+                 </div>
+                </div>
+                <div id="wish-list" style="background-color: #f5f7ff;" class="card p-3 mt-3">
+                    
+                    <div class="card-body text-center"> 
+                        <h5 class="card-title font-weight-bold">My Wish List</h5>
+                        <p style="font-size:14px;">You have no items in your wish list.</p>
+                 </div>
+                </div>
+                <div id="advers-photo" style="background-color: #f5f7ff;" class="card mt-3">
+                    
+                   <div class="img mb-5"><img style="width:100%" src="img/index-2/image 49.png" alt=""></div>
+                 </div>
              </div>
             </div>
         </div>
-                 <div class="col-lg-9">
+                 <div class="col-lg-9 col-md-8 mt-5">
                       <div class="position d-flex justify-content-between ">
                           <p>Items 1-35 of 61</p>
                           
                           <div class="d-flex justify-content-right">
                             <button type="button" class="btn btn-outline-secondary"> Sort by: <span>Position</span></button>
-                              <button type="button" class="btn btn-outline-secondary"> Show: <span>35 per page</span></button>
+                              <button type="button" class="btn btn-outline-secondary shower"> Show: <span>35 per page</span></button>
                               <img src="img/index-2/Group 201.png" alt="">
                               <img src="img/index-2/Group 202.png" alt="">
                           </div>
@@ -302,7 +338,7 @@
    
 
         
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -336,7 +372,7 @@
         </div> 
     </div>
     
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -369,7 +405,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -402,7 +438,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -435,7 +471,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -468,7 +504,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -501,7 +537,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -534,7 +570,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -567,7 +603,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -600,7 +636,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -633,7 +669,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -666,7 +702,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -699,7 +735,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -732,7 +768,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -765,7 +801,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -798,7 +834,7 @@
             </div>
         </div> 
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
         <div  class="card p-2">
             <span class="stock text-center text-success font-weight-light">in stock</span>
 
@@ -860,6 +896,65 @@
                              <button type="button" class="btn btn-outline-secondary clear mt-5 ">More</button>
                 </div>
         </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-12">
+        <div class="cards-show d-none">
+            <div id="brands" style="background-color: #f5f7ff;" class="card p-3 mt-3">
+              
+              <div class="card-body text-center">
+
+                  <h5 class="card-title font-weight-bold">Brands</h5>
+                
+                  <a href="#" class="clear btn btn-outline-secondary">All Brands</a>
+                      
+                  <div class="brand-box d-flex justify-content-between">
+                      <ul class="list-unstyled"> 
+                        <li> 
+                            <img src="img/image 33.png" alt="">
+                        </li>
+                        <li> 
+                          <img src="img/image 33 (1).png" alt="">
+                      </li>
+                      <li> 
+                          <img src="img/image 33 (2).png" alt="">
+                      </li>
+                      </ul>
+                      <ul class="list-unstyled">
+                          <li> 
+                              <img src="img/image 33 (3).png" alt="">
+                          </li>
+                          <li> 
+                              <img src="img/image 33 (4).png" alt="">
+                          </li>
+                          <li> 
+                              <img src="img/image 33 (5).png" alt="">
+                          </li>
+                      </ul>
+                  </div>
+                   
+              </div>
+          </div> 
+          <div id="product" style="background-color: #f5f7ff;" class="card p-3 mt-3">
+              
+              <div class="card-body text-center"> 
+                  <h5 class="card-title font-weight-bold">Compare Products</h5>
+                  <p style="font-size:14px;">You have no items to compare.</p>
+           </div>
+          </div>
+          <div id="wish-list" style="background-color: #f5f7ff;" class="card p-3 mt-3">
+              
+              <div class="card-body text-center"> 
+                  <h5 class="card-title font-weight-bold">My Wish List</h5>
+                  <p style="font-size:14px;">You have no items in your wish list.</p>
+           </div>
+          </div>
+          <div id="advers-photo" style="background-color: #f5f7ff;" class="card mt-3">
+              
+             <div class="img mb-5"><img style="width:100%" src="img/index-2/image 49.png" alt=""></div>
+           </div>
+       </div>
     </div>
 </div>
 <!-- product-list end -->
@@ -939,78 +1034,110 @@
                             </ul>
 
                             <div class="row">
-                                <div class="col-lg-2 col-md-4 col-sm-12">
-                                    <h6 class="mb-3">Information</h6>
-                                    <ul style="font-size: 10px;" class="list-unstyled">
-                                        <li>About Us</li>
-                                        <li>About Zip</li>
-                                        <li>Privacy Policy</li>
-                                        <li>Search</li>
-                                        <li>Terms</li>
-                                        <li>Orders and Returns</li>
-                                        <li>Contact Us</li>
-                                        <li>Advanced Search</li>
-                                        <li>Newsletter Subscription</li>
-                                    </ul>
+                                <div class="col-lg-2 col-md-12 col-sm-12">
+
+
+                                    <button type="button" class="collapsible">Information</button>
+                                    <div class="content">
+                                        <ul style="font-size: 10px;" class="list-unstyled">
+                                            <li>About Us</li>
+                                            <li>About Zip</li>
+                                            <li>Privacy Policy</li>
+                                            <li>Search</li>
+                                            <li>Terms</li>
+                                            <li>Orders and Returns</li>
+                                            <li>Contact Us</li>
+                                            <li>Advanced Search</li>
+                                            <li>Newsletter Subscription</li>
+                                        </ul>
+                                    </div>
+                                    
+
+                                    
                                 </div>
-                                <div class="col-lg-2 col-md-4 col-sm-12">
-                                    <h6 class="mb-3">PC Parts</h6>
-                                    <ul style="font-size: 10px;" class="list-unstyled">
-                                        <li>CPUS </li>
-                                        <li>Hard Drives (Internal)
-                                        </li>
-                                        <li>Graphic Cards</li>
-                                        <li>Keyboards / Mice</li>
-                                        <li>Cases / Power Supplies / Cooling</li>
-                                        <li>RAM (Memory)</li>
-                                        <li>Software</li>
-                                        <li>Speakers / Headsets</li>
-                                        <li>Motherboards</li>
-                                    </ul>
+                                
+
+<div class="hr"></div>
+                                <div class="col-lg-2 col-md-12 col-sm-12">
+
+                                    <button type="button" class="collapsible">PC Parts</button>
+                                    <div class="content">
+                                        <ul style="font-size: 10px;" class="list-unstyled">
+                                            <li>CPUS </li>
+                                            <li>Hard Drives (Internal)
+                                            </li>
+                                            <li>Graphic Cards</li>
+                                            <li>Keyboards / Mice</li>
+                                            <li>Cases / Power Supplies / Cooling</li>
+                                            <li>RAM (Memory)</li>
+                                            <li>Software</li>
+                                            <li>Speakers / Headsets</li>
+                                            <li>Motherboards</li>
+                                        </ul>
+                                    </div>
+
+                                   
                                 </div>
-                                <div class="col-lg-2 col-md-4 col-sm-12">
-                                    <h6 class="mb-3"> Laptops</h6>
-                                    <ul style="font-size: 10px;" class="list-unstyled">
+                                <div class="hr"></div>
+                                <div class="col-lg-2 col-md-12 col-sm-12">
+
+                                    <button type="button" class="collapsible">Laptops</button>
+                                    <div class="content">
+
+                                        <ul style="font-size: 10px;" class="list-unstyled">
 
 
 
-                                        <li>Evryday Use Notebooks</li>
-                                        <li> MSI Workstation Series</li>
-                                        <li>MSI Prestige Series</li>
-                                        <li>Tablets and Pads</li>
-                                        <li> Netbooks</li>
-                                        <li> Infinity Gaming Notebooks</li>
+                                            <li>Evryday Use Notebooks</li>
+                                            <li> MSI Workstation Series</li>
+                                            <li>MSI Prestige Series</li>
+                                            <li>Tablets and Pads</li>
+                                            <li> Netbooks</li>
+                                            <li> Infinity Gaming Notebooks</li>
+    
+                                        </ul>
+                                    </div>
 
-                                    </ul>
                                 </div>
-                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                <div class="hr"></div>
+                                <div class="col-lg-2 col-md-12 col-sm-12">
 
-                                    <h6 class="mb-3"> Desktop PCs</h6>
-                                    <ul style="font-size: 10px;" class="list-unstyled">
-                                        <li>Custom PCs</li>
-                                        <li>MSI All-In-One PCs</li>
-                                        <li>HP/Compaq PCs</li>
-                                        <li>ASUS PCs</li>
-                                        <li>Terms</li>
-                                        <li>Tecs PCs</li>
-                                    </ul>
+                                    <button type="button" class="collapsible"> Desktop PCs</button>
+                                    <div class="content">
+                                        <ul style="font-size: 10px;" class="list-unstyled">
+                                            <li>Custom PCs</li>
+                                            <li>MSI All-In-One PCs</li>
+                                            <li>HP/Compaq PCs</li>
+                                            <li>ASUS PCs</li>
+                                            <li>Terms</li>
+                                            <li>Tecs PCs</li>
+                                        </ul>
+                                    </div>
+
+                                  
                                 </div>
-                                <div class="col-lg-3 col-md-4 col-sm-12">
-                                    <h6 class="mb-3">Address</h6>
-                                    <ul style="font-size: 10px;" class="list-unstyled">
+                                <div class="hr"></div>
+                                <div class="col-lg-3 col-md-12 col-sm-12">
 
-                                        <li> Address: 1234 Street Adress City Address, 1234</li>
-                                        <li>Phones: <span style="color: #0156FF;">(00) 1234 5678 </span></li>
-                                        <li> We are open: Monday-Thursday: 9:00 AM - 5:30 PM</li>
-                                        <li>Friday: 9:00 AM - 6:00 PM</li>
-                                        <li> Saturday: 11:00 AM - 5:00 PM</li>
-                                        <li>E-mail: <a href="mailto:shop@email.com">shop@email.com</a> </li>
-                                    </ul>
+                                    <button type="button" class="collapsible">Address</button>
+                                    <div class="content">
+                                        <ul style="font-size: 10px;" class="list-unstyled">
+
+                                            <li> Address: 1234 Street Adress City Address, 1234</li>
+                                            <li>Phones: <span style="color: #0156FF;">(00) 1234 5678 </span></li>
+                                            <li> We are open: Monday-Thursday: 9:00 AM - 5:30 PM</li>
+                                            <li>Friday: 9:00 AM - 6:00 PM</li>
+                                            <li> Saturday: 11:00 AM - 5:00 PM</li>
+                                            <li>E-mail: <a href="mailto:shop@email.com">shop@email.com</a> </li>
+                                        </ul>
+                                    </div>
+
+                                   
                                 </div>
                             </div>
                             <div class="hr"></div>
                             <div class="sossial-media">
-                                <ul style="font-size: 12px;" class="list-unstyled d-flex justify-content-between">
+                                <ul style="font-size: 12px;" class="list-unstyled d-flex justify-content-between flex-wrap">
                                     <li>
                                         <i class="fab fa-instagram"></i>
                                         <i class="fab fa-facebook-square ml-1"></i>

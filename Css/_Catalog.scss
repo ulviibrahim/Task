@@ -2,6 +2,9 @@ body{
     background-color: white;
 }
 
+header{
+    background-color: white ;
+}
 #image-block{
     margin-top: -16px;
     .img{
@@ -123,6 +126,7 @@ body{
         border-radius: 2px;
         font-size: 14px;
         position: relative;
+       
         span{
             color: $bg-dark;
             font-weight: 600;
@@ -206,3 +210,304 @@ body{
         padding: 15px;
     }
 }
+.collapsible {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    position: relative;
+    &:after{
+        content: "\f107";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+         top: 11px;
+         left: 150px;
+        position: absolute;
+    }
+  }
+ 
+  #collaps{
+    .collapsible{
+        display: inline;
+        color: black !important;
+        
+        .title-ul{
+            position: relative;
+            display: inline;
+        }
+        &:after{
+            right: 5px;
+        }
+    }
+  }
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: transparent;
+    
+    ul{
+        font-size: 14px !important;
+    }
+  }
+  .active, .collapsible:hover {
+    background-color: transparent;
+    
+  }
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 350px)and (max-width: 768px) {  
+    
+    header{
+        background-color: #0156ff ;
+        position: relative !important;
+    
+    nav{
+         display: block !important;
+        background-color: #0156ff;
+        .navbar-brand{
+            display: none !important;
+           
+        }
+       .nav-link{
+           color: white !important;
+       }
+       
+
+     }
+        
+    }
+    .search{
+        position: absolute !important;
+        z-index: 200;
+        width: 72%;
+        right: 8%;
+        top: 34px;
+        .logo{
+           
+            img{
+                position: absolute;
+                top: -28px;
+                left: -73px;
+                background-color: #0156ff;
+                border-radius: 50%;
+                padding: 16px;
+            }
+        }
+     
+         .input-search{
+             width: 90% !important;
+             input{
+              
+                width: 75%;
+                height: 10px;
+                background-color: white;
+                outline: none;
+                left: -34px;
+                
+             }
+             &:after{
+                display: none;
+            }
+         }
+        .profil-card{
+            &:after{
+                display: none;
+            }
+        }
+    }
+
+    .searching{
+        ul{
+
+        
+        li.remove-li{
+            
+            
+                    display: none;
+                }
+        li{
+            .contuct-us{
+                display: block !important;
+            }
+            .fb-ins{
+                
+                display: none !important;
+            }
+        }
+    }
+
+    }
+    .filter-devices{
+        .Filter-hidden{
+            display: inline !important;
+        }
+        .back{
+            display: none !important;
+        }
+        .cards-hidden{
+            display: none !important;
+        }
+    }
+  
+    .position img {
+        width: 8% !important;
+        height: 46% !important;}
+    .shower{
+        display: none !important;
+    }
+    .list-count{
+        display: none !important;
+    }
+    .footer-input{
+        display: block !important;
+        li{
+            input{
+                background-color: transparent;
+                border: 1px solid gray;
+                border-radius: 5px;
+                padding: 7px 20px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+ .cards-show{
+     display: inline !important;
+ }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    
+    header{
+        background-color: #0156ff ;
+        position: relative !important;
+    
+    nav{
+         display: block !important;
+        background-color: #0156ff;
+        .navbar-brand{
+            display: none !important;
+           
+        }
+       .nav-link{
+           color: white !important;
+       }
+       
+
+     }
+        
+    }
+    .search{
+        position: absolute !important;
+        z-index: 200;
+        width: 72%;
+        right: 8%;
+        top: 42px;
+        .logo{
+           
+            img{
+                position: absolute;
+                top: -28px;
+                left: -73px;
+                background-color: #0156ff;
+                border-radius: 50%;
+                padding: 16px;
+            }
+        }
+         .input-search{
+             width: 90% !important;
+             input{
+                width: 100%;
+                height: 10px;
+                background-color: white;
+                outline: none;
+                left: -79px;
+
+                
+             }
+             &:after{
+                display: none;
+            }
+         }
+        .profil-card{
+            &:after{
+                display: none;
+            }
+        }
+    }
+
+    .searching{
+        ul{
+
+        
+        li.remove-li{
+            
+            
+                    display: none;
+                }
+        li{
+            .contuct-us{
+                display: block !important;
+            }
+            .fb-ins{
+                
+                display: none !important;
+            }
+        }
+    }
+
+    }
+    .filter-devices{
+        .back{
+            display: none !important;
+        }
+    }
+    .position img {
+        width: 8% !important;
+        height: 46% !important;}
+    .shower{
+        display: none !important;
+    }
+    .list-count{
+        display: none !important;
+    }
+    .footer-input{
+        input{
+            width: 62%;
+        }
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  
+    .search{
+        display: none ;
+    }
+        header{
+            background-color: white !important ;
+    
+        
+        nav{
+            display: flex !important;
+            background-color: white !important;
+            .nav-link{
+                color: black !important;
+            }
+         }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    body{
+       
+    }
+ }
